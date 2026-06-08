@@ -4,13 +4,13 @@
     "issuer": "TryHackMe",
     "date": "2026",
     "link": "https://tryhackme.com",
-    "image": "/projects/tryhackme.webp"
+    "image": "/porfolio/projects/tryhackme.webp"
   },
   {
     "title": "Claude Code 101",
     "issuer": "Anthropic",
     "date": "2026",
     "link": "https://anthropic.com",
-    "image": "/projects/anthropic.webp"
+    "image": "/porfolio/projects/anthropic.webp"
   }
 ]
