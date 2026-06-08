@@ -2,7 +2,7 @@
   {
     "title": "TFM - Automatización del Ciclo de Vida de Incidentes",
     "description": "Solución para automatizar la gestión de incidentes en entornos cloud e híbridos. Implementación de flujos automatizados para análisis y respuesta ante incidentes, con integración de herramientas de monitorización y automatización de seguridad.",
-    "tags": ["AWS", "PYTHON"],
+    "tags": ["AWS", "PYTHON", "Gestion de Incidentes"],
     "image": "/porfolio/projects/TFM_miniatura.webp",
     "link": null,
     "github": null
@@ -10,9 +10,17 @@
   {
     "title": "Seguridad de Sistemas y Análisis de Tráfico de Red",
     "description": "Proyecto enfocado en hardening de sistemas Linux/Windows, configuración de firewalls y controles de acceso, análisis de tráfico con Wireshark y Snort, e implementación de infraestructuras cloud seguras en AWS.",
-    "tags": ["AWS", "PYTHON"],
+    "tags": ["Linux", "Windows", "Firewalls", "Wireshark", "Snort"],
     "image": "/porfolio/projects/hardening.webp",
     "link": null,
     "github": null
+  },
+  {
+    "title": "TFG - Automatización del posicionamiento y seguimiento de trayectorias de un vehículo autónomo basado en ROS sobre planos previamente levantados",
+    "description": "desarrollo de un vehículo autónomo capaz de realizar levantamiento de mapas y navegación autónoma, empleando el entorno de desarrollo ROS 2 y tecnologías avanzadas como sensores LIDAR.",
+    "tags": ["Lidar", "PYTHON", "ROS 2", "C++"],
+    "image": "/porfolio/projects/TFG_miniatura.webp",
+    "link": null,
+    "github": "https://github.com/juansocas/VEHICULO_AUTONOMO_TFG"
   }
 ]
