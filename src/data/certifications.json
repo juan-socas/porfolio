@@ -2,14 +2,14 @@
   {
     "title": "Cyber Security 101",
     "issuer": "TryHackMe",
-    "date": "2024",
+    "date": "2026",
     "link": "https://tryhackme.com",
     "image": "/porfolio/certifications/tryhackme.webp"
   },
   {
     "title": "Claude Code 101",
     "issuer": "Anthropic",
-    "date": "2024",
+    "date": "2026",
     "link": "https://anthropic.com",
     "image": "/porfolio/certifications/anthropic.webp"
   }
