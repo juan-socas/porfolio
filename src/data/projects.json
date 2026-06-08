@@ -2,11 +2,17 @@
   {
     "title": "TFM - Automatización del Ciclo de Vida de Incidentes",
     "description": "Solución para automatizar la gestión de incidentes en entornos cloud e híbridos. Implementación de flujos automatizados para análisis y respuesta ante incidentes, con integración de herramientas de monitorización y automatización de seguridad.",
-    "tags": ["Cloud Security", "AWS", "Python", "Incident Response", "Automatización"]
+    "tags": ["AWS", "PYTHON"],
+    "image": "/projects/tfm.webp",
+    "link": null,
+    "github": null
   },
   {
     "title": "Seguridad de Sistemas y Análisis de Tráfico de Red",
     "description": "Proyecto enfocado en hardening de sistemas Linux/Windows, configuración de firewalls y controles de acceso, análisis de tráfico con Wireshark y Snort, e implementación de infraestructuras cloud seguras en AWS.",
-    "tags": ["Linux", "Firewall", "IDS/IPS", "AWS", "Python", "Wireshark"]
+    "tags": ["AWS", "PYTHON"],
+    "image": "/projects/security.webp",
+    "link": null,
+    "github": null
   }
 ]
