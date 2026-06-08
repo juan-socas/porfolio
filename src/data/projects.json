@@ -10,14 +10,14 @@
   {
     "title": "Seguridad de Sistemas y Análisis de Tráfico de Red",
     "description": "Proyecto enfocado en hardening de sistemas Linux/Windows, configuración de firewalls y controles de acceso, análisis de tráfico con Wireshark y Snort, e implementación de infraestructuras cloud seguras en AWS.",
-    "tags": ["Linux", "Windows", "Firewalls", "Wireshark", "Snort"],
+    "tags": ["Linux", "Windows", "Firewalls", "Wireshark"],
     "image": "/porfolio/projects/hardening.webp",
     "link": null,
     "github": null
   },
   {
     "title": "TFG - Automatización del posicionamiento y seguimiento de trayectorias de un vehículo autónomo basado en ROS sobre planos previamente levantados",
-    "description": "desarrollo de un vehículo autónomo capaz de realizar levantamiento de mapas y navegación autónoma, empleando el entorno de desarrollo ROS 2 y tecnologías avanzadas como sensores LIDAR.",
+    "description": "Desarrollo de un vehículo autónomo capaz de realizar levantamiento de mapas y navegación autónoma, empleando el entorno de desarrollo ROS 2 y tecnologías avanzadas como sensores LIDAR.",
     "tags": ["Lidar", "PYTHON", "ROS 2", "C++"],
     "image": "/porfolio/projects/TFG_miniatura.webp",
     "link": null,
