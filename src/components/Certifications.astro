@@ -2,38 +2,49 @@
 import certificationData from "@/data/certifications.json"
 import LinkButton from "./LinkButton.astro"
 import ExternalLink from "./icons/ExternalLink.astro"
+import Link from "./icons/Link.astro"
+
+const generateId = (title: string) => title.toLowerCase().replace(/\s+/g, "-")
 ---
 
 <ul class="space-y-6">
   {
-    certificationData.map((cert) => (
-      <li class="flex gap-4 md:gap-6">
-        {cert.image && (
-          <div class="flex-shrink-0">
-            <img
-              src={cert.image}
-              alt={cert.issuer}
-              class="w-12 h-12 rounded-lg object-cover"
-              loading="lazy"
-            />
-          </div>
-        )}
-        <div class="flex-1">
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
-            {cert.title}
-          </h3>
-          <p class="text-sm text-gray-600 dark:text-gray-400">{cert.issuer}</p>
-          <p class="text-xs text-gray-500 dark:text-gray-500 mt-1">{cert.date}</p>
-          {cert.link && (
-            <div class="mt-3">
-              <LinkButton href={cert.link}>
-                <ExternalLink class="size-4" />
-                Ver certificación
-              </LinkButton>
+    certificationData.map((cert) => {
+      const certId = generateId(cert.title)
+      return (
+        <li class="flex gap-4 md:gap-6 group" id={certId}>
+          {cert.image && (
+            <div class="flex-shrink-0">
+              <img
+                src={cert.image}
+                alt={cert.issuer}
+                class="w-12 h-12 rounded-lg object-cover"
+                loading="lazy"
+              />
             </div>
           )}
-        </div>
-      </li>
-    ))
+          <div class="flex-1">
+            <div class="flex items-center gap-2">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
+                {cert.title}
+              </h3>
+              <a href={`#${certId}`} class="opacity-0 group-hover:opacity-100 transition-opacity" title="Copiar enlace">
+                <Link class="size-4 text-gray-400 hover:text-yellow-500" />
+              </a>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-400">{cert.issuer}</p>
+            <p class="text-xs text-gray-500 dark:text-gray-500 mt-1">{cert.date}</p>
+            {cert.link && (
+              <div class="mt-3">
+                <LinkButton href={cert.link}>
+                  <ExternalLink class="size-4" />
+                  Ver certificación
+                </LinkButton>
+              </div>
+            )}
+          </div>
+        </li>
+      )
+    })
   }
 </ul>
