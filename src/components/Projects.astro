@@ -27,11 +27,56 @@ const TAGS: Record<string, { name: string; class: string; icon: any }> = {
     class: "bg-[#3776AB] text-white",
     icon: NextJS,
   },
+  "Gestion de Incidentes": {
+    name: "Gestion de Incidentes",
+    class: "bg-[#DC2626] text-white",
+    icon: NextJS,
+  },
+  LINUX: {
+    name: "Linux",
+    class: "bg-[#FCC624] text-black",
+    icon: NextJS,
+  },
+  WINDOWS: {
+    name: "Windows",
+    class: "bg-[#0078D4] text-white",
+    icon: NextJS,
+  },
+  FIREWALLS: {
+    name: "Firewalls",
+    class: "bg-[#444444] text-white",
+    icon: NextJS,
+  },
+  WIRESHARK: {
+    name: "Wireshark",
+    class: "bg-[#1679A7] text-white",
+    icon: NextJS,
+  },
+  SNORT: {
+    name: "Snort",
+    class: "bg-[#DC143C] text-white",
+    icon: NextJS,
+  },
+  LIDAR: {
+    name: "Lidar",
+    class: "bg-[#9333EA] text-white",
+    icon: NextJS,
+  },
+  "ROS 2": {
+    name: "ROS 2",
+    class: "bg-[#22D3EE] text-black",
+    icon: NextJS,
+  },
+  "C++": {
+    name: "C++",
+    class: "bg-[#00599C] text-white",
+    icon: NextJS,
+  },
 }
 
 const PROJECTS = projectsData.map((project) => ({
   ...project,
-  tags: project.tags.map((key) => TAGS[key]),
+  tags: (project.tags ?? []).map((key) => TAGS[key]).filter(Boolean),
 }))
 ---
 
@@ -53,12 +98,12 @@ const PROJECTS = projectsData.map((project) => ({
       {title}
     </h3>
     <ul class="flex flex-row flex-wrap mt-3 gap-2">
-      {tags.map((tag) => (
+      {(tags ?? []).map((tag) => tag && (
         <li>
           <span
-            class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}
+            class={`flex gap-x-2 rounded-full text-xs ${tag.class ?? "bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200"} py-1 px-2`}
           >
-            <tag.icon class="size-4" />
+            {tag.icon && <tag.icon class="size-4" />}
             {tag.name}
           </span>
         </li>
