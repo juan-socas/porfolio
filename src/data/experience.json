@@ -7,7 +7,7 @@
     "current": true
   },
   {
-    "date": "Enero 2025 - Mayo 2026",
+    "date": "Enero 2025 - Mayo 2025",
     "title": "Contrato de Prácticas: Automatización Robótica",
     "company": "IDETIC",
     "description": "Automatización del posicionamiento y seguimiento de trayectorias de un vehículo autónomo basado en ROS sobre planos previamente levantados. Desarrollo con ROS 2, Python, C++ y LIDAR."
