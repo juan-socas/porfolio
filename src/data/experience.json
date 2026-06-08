@@ -1,16 +1,16 @@
 [
   {
     "date": "Mayo 2025 - Actualidad",
+    "title": "Máster Universitario en Ciberseguridad y Privacidad",
+    "company": "Universidad Oberta de Cataluña (UOC)",
+    "description": "Máster oficial enfocado en ciberseguridad, privacidad y protección de datos. Formación avanzada en seguridad ofensiva y defensiva, análisis de vulnerabilidades, gestión de riesgos, respuesta ante incidentes, RGPD y Directiva NIS2"
+  },
+  {
+    "date": "Enero 2025 - Mayo 2026",
     "title": "Contrato de Prácticas: Automatización Robótica",
     "company": "IDETIC",
     "description": "Automatización del posicionamiento y seguimiento de trayectorias de un vehículo autónomo basado en ROS sobre planos previamente levantados. Desarrollo con ROS 2, Python, C++ y LIDAR.",
     "current": true
-  },
-  {
-    "date": "2025 - 2026",
-    "title": "Máster Universitario en Ciberseguridad y Privacidad",
-    "company": "Universidad Oberta de Cataluña (UOC)",
-    "description": "Especialización en ciberseguridad ofensiva y defensiva, automatización de respuesta a incidentes en entornos cloud e híbridos, y gestión de vulnerabilidades."
   },
   {
     "date": "2020 - 2025",
