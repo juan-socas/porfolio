@@ -4,6 +4,17 @@ import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import ExternalLink from "./icons/ExternalLink.astro"
 import Code from "./icons/Code.astro"
+import AWS from "./icons/AWS.astro"
+import Python from "./icons/Python.astro"
+import Linux from "./icons/Linux.astro"
+import Windows from "./icons/Windows.astro"
+import Firewalls from "./icons/Firewalls.astro"
+import Wireshark from "./icons/Wireshark.astro"
+import Snort from "./icons/Snort.astro"
+import Lidar from "./icons/Lidar.astro"
+import ROS from "./icons/ROS.astro"
+import CPlusPlus from "./icons/CPlusPlus.astro"
+import Incidents from "./icons/Incidents.astro"
 import LinkButton from "./LinkButton.astro"
 import projectsData from "@/data/projects.json"
 
@@ -21,57 +32,57 @@ const TAGS: Record<string, { name: string; class: string; icon: any }> = {
   AWS: {
     name: "AWS",
     class: "bg-[#FF9900] text-white",
-    icon: Code,
+    icon: AWS,
   },
   PYTHON: {
     name: "Python",
     class: "bg-[#3776AB] text-white",
-    icon: Code,
+    icon: Python,
   },
   "Gestion de Incidentes": {
     name: "Gestion de Incidentes",
     class: "bg-[#DC2626] text-white",
-    icon: Code,
+    icon: Incidents,
   },
   LINUX: {
     name: "Linux",
     class: "bg-[#FCC624] text-black",
-    icon: Code,
+    icon: Linux,
   },
   WINDOWS: {
     name: "Windows",
     class: "bg-[#0078D4] text-white",
-    icon: Code,
+    icon: Windows,
   },
   FIREWALLS: {
     name: "Firewalls",
     class: "bg-[#444444] text-white",
-    icon: Code,
+    icon: Firewalls,
   },
   WIRESHARK: {
     name: "Wireshark",
     class: "bg-[#1679A7] text-white",
-    icon: Code,
+    icon: Wireshark,
   },
   SNORT: {
     name: "Snort",
     class: "bg-[#DC143C] text-white",
-    icon: Code,
+    icon: Snort,
   },
   LIDAR: {
     name: "Lidar",
     class: "bg-[#9333EA] text-white",
-    icon: Code,
+    icon: Lidar,
   },
   "ROS 2": {
     name: "ROS 2",
     class: "bg-[#22D3EE] text-black",
-    icon: Code,
+    icon: ROS,
   },
   "C++": {
     name: "C++",
     class: "bg-[#00599C] text-white",
-    icon: Code,
+    icon: CPlusPlus,
   },
 }
 
