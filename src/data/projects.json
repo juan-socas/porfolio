@@ -10,7 +10,7 @@
   {
     "title": "Seguridad de Sistemas y Análisis de Tráfico de Red",
     "description": "Proyecto enfocado en hardening de sistemas Linux/Windows, configuración de firewalls y controles de acceso, análisis de tráfico con Wireshark y Snort, e implementación de infraestructuras cloud seguras en AWS.",
-    "tags": ["Linux", "Windows", "Firewalls", "Wireshark"],
+    "tags": ["LINUX", "WINDOWS", "FIREWALLS", "WIRESHARK"],
     "image": "/porfolio/projects/hardening.webp",
     "link": null,
     "github": null
