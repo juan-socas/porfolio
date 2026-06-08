@@ -29,14 +29,8 @@ const TAGS: Record<string, { name: string; class: string; icon: any }> = {
   },
 }
 
-const getImagePath = (imagePath: string | null) => {
-  if (!imagePath) return null
-  return new URL(imagePath, Astro.site).pathname
-}
-
 const PROJECTS = projectsData.map((project) => ({
   ...project,
-  image: getImagePath(project.image),
   tags: project.tags.map((key) => TAGS[key]),
 }))
 ---
